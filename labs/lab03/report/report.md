@@ -14,8 +14,6 @@ csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
 ## Pdf output format
 toc: true # Table of contents
 toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
 fontsize: 12pt
 linestretch: 1.5
 papersize: a4
@@ -54,8 +52,6 @@ biblatexoptions:
 figureTitle: "Рис."
 tableTitle: "Таблица"
 listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
 lolTitle: "Листинги"
 ## Misc options
 indent: true
@@ -77,7 +73,7 @@ header-includes:
 ![](image/1.png){ #fig:001 width=70% }
 
 
-2. Перейдите в каталог с шаблоном отчета по лабораторной работе №3. Проводим компиляцию шаблона с использованием Makefile. Для этого используем команду make. 
+2. Переходим в каталог с шаблоном отчета по лабораторной работе №3. Проводим компиляцию шаблона с использованием Makefile. Для этого используем команду make. 
 
 ![](image/2.png){ #fig:002 width=70% }
 
@@ -97,8 +93,20 @@ header-includes:
 
 ![](image/5.png){ #fig:005 width=70% }
 
+
+6. Компилируем отчет с помощью Makefile. Проверяем корректность полученных файлов. 
+
+![](image/6.png){ #fig:006 width=70% }
+
+
+7. Загружаем файлы на GitHub
+
+![](image/7.png){ #fig:007 width=70% }
+
+
 # Выводы
 
-Здесь кратко описываются итоги проделанной работы.
+В ходе выполнения лабораторной работы  я освоил процедуры оформления отчетов с помощью
+легковесного языка разметки Markdown.
 
 
